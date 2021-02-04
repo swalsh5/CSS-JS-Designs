@@ -1,1 +1,11 @@
-// Page to add animation + fix l to i issue
+function transform()
+{
+    var change = document.getElementById("l")
+    change.innerHTML = "i";
+}
+
+function transformBack()
+{
+    var change = document.getElementById("l")
+    change.innerHTML = "L";
+}
